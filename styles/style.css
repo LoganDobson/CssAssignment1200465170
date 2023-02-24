@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat&display=swap');
+
+
+body{
+    margin: 120px;
+    background-color: lightsteelblue;
+    padding: 2em;
+}
+.page-wrapper{
+    margin: 25px;
+}
+
+
+.banner{
+    text-align: center;
+    font-size: 2em;
+    background-color: lightgreen;
+    background-image: url(/images/jene-stephaniuk-83y3d6Ou6vE-unsplash.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Gloock, serif;
+    
+    
+}
+
+.banner:hover{
+    filter: invert(5);
+    filter: contrast(3);
+}
+
+#zen-preamble{
+    text-align: center;
+    font-size: 1em;
+    background-color: lightskyblue;
+    justify-content: center;
+    position: relative;
+    max-width: 700px;
+    right: 100px;
+    border: 1px solid lightcoral;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.explanation{
+    text-align: center;
+    font-size: 1em;
+    background-color: lightcoral;
+    justify-content: center;
+    position: relative;
+    max-width: 700px;
+    left: 200px;
+    border: 1px solid black;
+    margin: 25px;
+    font-family: Gloock, serif;
+}
+
+.participation{
+    text-align: center;
+    font-size: 1em;
+    background-color: lightskyblue;
+    justify-content: center;
+    position: relative;
+    max-width: 700px;
+    left: 450px;
+    border: 1px solid lightcoral;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.benefits{
+    text-align: center;
+    font-size: 1em;
+    background-color: lightcoral;
+    justify-content: center;
+    position: relative;
+    max-width: 700px;
+    left: 200px;
+    border: 1px solid black;
+    margin: 25px;
+    font-family: Gloock, serif;
+}
+
+.requirements{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    background-color: lightskyblue;
+    justify-content: center;
+    max-width: 700px;
+    right: 100px;
+    border: 1px solid lightcoral;
+    margin: 25px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.design-selection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+    padding: .5em;
+    background-color: lightskyblue;
+    text-decoration: none;
+    max-width: 600px;
+    position: relative;
+    right: 200px;
+    bottom: 1200px;
+    margin: 25px;
+    border: 1px dashed black;
+    font-family: Gloock, serif;
+}
+
+.design-selection li:nth-of-type(odd){
+    background-color: lightcoral;
+    color: white;
+    text-decoration: none;
+}
+
+#design-archives{
+    display: flex;
+    flex-direction: row;
+    background-color: lightskyblue;
+    padding: 1em;
+    margin: 50px;
+    position: relative;
+    max-width: 250px;
+    left: 650px;
+    bottom: 800px;
+    
+    border: 1px solid black;
+}
+
+#zen-resources{
+    display: flex;
+    flex-direction: row;
+    background-color: lightcoral;
+    max-width: 250px;
+    position: relative;
+    left: 700px;
+    bottom: 850px;
+    border: 1px solid black;
+}
+
+footer{
+    position: absolute;
+    top: 2400px;
+    left: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div > h3{
+    color: white;
+}
+
+nav li{
+    color: black;
+}
+
+header + h1{
+    color: white;
+}
+
+div ~ p{
+    color: gray;
+}
+
